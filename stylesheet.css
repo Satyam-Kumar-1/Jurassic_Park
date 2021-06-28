@@ -93,7 +93,7 @@
   /* border: blueviolet 2px solid; */
   width:38%;
   height: 419.3px;
-  background:url("./backgrnd.jpg");
+  background:url("backgrnd.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
