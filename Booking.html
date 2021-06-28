@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ticket</title>
+    <style>
+      body{display: flex;
+
+      justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 177, 243);
+;
+    /* background-image: url("backdrnd1.jpg"); */
+}
+            
+        .cont-book{
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            border: 2px blue solid;
+            width:350px;
+            height:100%;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(135, 219, 135);
+            border-radius: 13px;
+          
+
+        }
+  .cont-book textarea{width: 250px;
+resize: none;}
+ .box{ width:250px;}
+.heading1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.buttn:hover{
+    background-color: green;
+}
+
+    </style>
+</head>
+<body>
+    
+    <form action="">
+  <div class="cont-book">
+      <div class="heading1">Online Ticket Booking</div>
+      <div>Your Name: <br><input type="text" class="box" name="Your Name" id="name" placeholder="Your Name">
+      </div><br>
+       <div>Mob no : <br> <input type="number" class="box" name="Mobile number" id="Mobile" placeholder="Enetr 10 digit mob no">
+      </div><br>
+       <div>Email: <br><input type="email" class="box" name="Email" id="your mail" placeholder="Your email id">
+      </div><br>
+      <div>Your Age <br><input type="number" class="box" name="age" id="Your Age " placeholder="Your Age"> </div><br>
+      <div>
+        Gender:  <input type="radio" name="My Gender" id="">Male <input type="radio" name="My Gender"> Female <input type="radio" name="My Gender"> Other
+    </div><br>
+      
+     <div> Your Address <br> <textarea name="Your Address" class="box" id="" cols="30" rows="10" style="margin: 0px; height: 64px;"></textarea>
+    </div><br>
+    <div>Your City/District <br> <input type="text" class="box" name="" id="" placeholder="Enter Your City name"></div><br>
+    <div> State <br> <input type="text" class="box" name="" id="" placeholder="Enter Your State Name">                   </div> <br>
+    <div> Pin Code <br> <input type="number"class="box" name="" id="" placeholder="Enter Your Pin Code">       </div><br>
+    <div ><input type="submit" class="buttn" value="submit">
+    <input type="reset" class="buttn" value="Book Another"></div>
+    <div><p>(After Submisssion You will be forwarded to Payment Gateway)</p></div>
+
+
+
+
+
+
+
+
+</div>
+    </form>
+</body>
+</html>
