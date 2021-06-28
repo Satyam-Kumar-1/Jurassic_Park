@@ -11,18 +11,18 @@
     box-shadow: green 2px;
    
     /* background-color: greenyellow; */
-    background: url('../img1.jpg') no-repeat;
+    background: url('img1.jpg') no-repeat;
     animation:slider 10s infinite linear;
     
 
 }
 @keyframes slider {
-    0%{   background: url('../img1.jpg');}
-    20%{  background: url('../img2.jpg'); }
-    45%{   background: url('../img3.jpg');}
-    60%{  background: url('../img4.jpg'); }
-    80%{  background: url('../img1.jpg'); }
-    100%{ background: url('../images (10).jpg');}
+    0%{   background: url('img1.jpg');}
+    20%{  background: url('img2.jpg'); }
+    45%{   background: url('img3.jpg');}
+    60%{  background: url('img4.jpg'); }
+    80%{  background: url('img1.jpg'); }
+    100%{ background: url('images (10).jpg');}
 
 
     
